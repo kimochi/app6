@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.24.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "holderjs": "^2.9.6",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
