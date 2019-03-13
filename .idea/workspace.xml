@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efe73d4c-6ee7-4f6c-8e92-d447805f6b8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/.tonic_example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/error_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/schema_obj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/ucs2length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitItems.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitLength.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitProperties.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/allOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/coerce.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/comment.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/const.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/contains.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/enum.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/if.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/multipleOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/not.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/pattern.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/propertyNames.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/uniqueItems.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/contains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/if.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/propertyNames.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-04.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-06.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-secure.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/.eslintrc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/prepare-tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/publish-built-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/travis-gh-pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/README.ru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/coa.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/arg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/cmd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/coaobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/coaparam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/completion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/completion.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/opt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/lib/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/coa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/parse/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/compress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/source-map-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/css/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/node_modules/.bin/rimraf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/node_modules/.bin/rimraf.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/node_modules/.bin/rimraf.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/del/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has/LICENSE-MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/has/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ini/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ini/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ini/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ini/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/lib/ip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ip/test/api-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mem/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mem/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mem/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/opn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/opn/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/opn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/opn/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/opn/xdg-open" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/prr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/prr/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/q.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/q/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/lib/positions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/lib/sets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/lib/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ret/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sax/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sax/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sax/lib/sax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/sax/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tmp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tmp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tmp/lib/tmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/tmp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/url/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="48" />
+              <folding>
+                <element signature="e#34#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>markd</find>
+      <find>toggle_</find>
+      <find>hours ag</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
+        <option value="$PROJECT_DIR$/src/services/MarkdownHelper.php" />
+        <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="770" />
+    <option name="y" value="31" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app5" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app5" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\app5\templates\article" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efe73d4c-6ee7-4f6c-8e92-d447805f6b8b" name="Default Changelist" comment="" />
+      <created>1552487961763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552487961763</updated>
+      <workItem from="1552487966616" duration="5441000" />
+      <workItem from="1552506384676" duration="431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5872000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49930555" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50069445" side_tool="true" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="258" column="6" selection-start-line="258" selection-start-column="6" selection-end-line="258" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="283" column="81" selection-start-line="283" selection-start-column="81" selection-end-line="283" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9011">
+          <caret line="639" column="9" selection-start-line="639" selection-start-column="9" selection-end-line="639" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/MarkdownHelper.php" />
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="48" />
+          <folding>
+            <element signature="e#34#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
